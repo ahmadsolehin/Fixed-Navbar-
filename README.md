@@ -4,5 +4,14 @@
 
 - this issue is quite popular in ios apps
 - when you type into textfield and the keyboard will appear.. the navbar will moving up and down
-
 - im stuck about 3 days.. to fix this problem.. suddenly i found out something tnteresting.. which is use jquery when use tap down the keyboard in ios..
+
+## solution
+
+if ('ontouchstart' in window) {
+    $(document).on('focus', 'textarea,input,select', function() {
+        $('.navbar.navbar-fixed-top').css('position', 'absolute');
+    }).on('blur', 'textarea,input,select', function() {
+        $('.navbar.navbar-fixed-top').css('position', '');
+    });
+}
