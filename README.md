@@ -8,3 +8,6 @@
 
 ## solution
 
+- add a simple javascript code
+
+<img width="529" alt="screen shot 2018-02-16 at 12 46 10 pm" src="https://user-images.githubusercontent.com/12325386/36293880-835744ae-1317-11e8-8a58-7e2a43efab62.png">
